@@ -1,0 +1,212 @@
+/* Fonts and colors */
+body {
+	color: #494949;
+	font-size: 18px;
+	line-height: 1.6;
+	font-weight: lighter;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+}
+h1, h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+}
+h2 {
+	color: #A0A0A0;
+	font-weight: normal;
+}
+a {
+	text-decoration: none;
+	color: #4352A1;
+}
+
+p {
+	text-decoration: none;
+	color: white;
+	font-size: 12px;
+	font-weight: lighter;
+}
+
+/* Other COlor */
+/*#81d742 -- vert clair
+ */*#006B38 -- vert foncé casino
+
+ /* Custom design */
+
+ #collect {
+	 font-size: 50px;
+
+ }
+ .banner {
+	 background-image: url("images/banner4.jpg");
+	 background-size: cover;
+	 color: white;
+	 padding: 120px 0;
+	 text-shadow: 1px 1px 5px black;
+	 filter: brightness(100%);
+	 -webkit-filter: brightness(100%);
+
+ }
+ .banner h1, h2 {
+	 font-size: 26px;
+	 text-shadow: 1px 1px 5px black;
+	 margin: 10px;
+	 color: white;
+	 opacity: 0.95;
+	 font-weight: lighter;
+	 font-style: italic;
+
+ }
+ .banner p {
+	 font-size: 22px;
+	 color: white;
+	 font-style: italic;
+	 opacity: 0.95;
+
+
+
+
+
+ }
+ .container {
+	 width: 700px;
+	 margin: 50px auto;
+ }
+
+ /* Media queries */
+ @media(max-width: 900px) {
+	 .container {
+		 width: 700px;
+	 }
+ }
+ @media(max-width: 750px) {
+	 .container {
+		 width: 450px;
+	 }
+ }
+ @media(max-width: 500px) {
+	 .container {
+		 width: 350px;
+	 }
+	 .banner {
+		 padding: 50px 0;
+	 }
+	 .banner h1 {
+		 font-size: 40px;
+	 }
+	 .banner p {
+		 font-size: 20px;
+	 }
+ }
+
+ /* Main navbar */
+ .navbar-wagon {
+	 box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
+	 background: #006B38;
+	 transition: all 0.3s ease;
+	 height: 85px;
+	 padding: 0px 30px;
+	 display: flex;
+	 align-items: center;
+	 justify-content: space-between;
+ }
+
+ /* Logo */
+ .navbar-wagon-brand img {
+	 height: 50px;
+ }
+
+ /* User Avatar */
+ .navbar-wagon .avatar {
+	 margin-top: 12px;
+	 height: 50px;
+	 width: 50px;
+	 border-radius: 50%;
+ }
+
+ /* Right section */
+ .navbar-wagon-right {
+	 display: flex;
+	 align-items: center;
+	 justify-content: space-between;
+ }
+
+ /* Basic navbar item */
+ .navbar-wagon-item {
+	 cursor: pointer;
+	 padding: 0 20px;
+ }
+
+ /* Navbar link */
+ .navbar-wagon-link {
+	 color: rgb(240, 240, 240);
+	 font-size: 16px;
+ }
+ .navbar-wagon-link:hover {
+	 color: #81d742;
+	 text-decoration: none;
+ }
+
+ /* Dropdown menu */
+ .navbar-wagon-dropdown-menu {
+	 margin-top: 15px;
+	 box-shadow: 1px 1px 4px #E6E6E6;
+	 border-color: #E6E6E6;
+ }
+ .navbar-wagon-dropdown-menu li > a {
+	 transition: color 0.3s ease;
+	 font-weight: lighter !important;
+	 color: #999999 !important;
+	 font-size: 15px !important;
+	 line-height: 22px !important;
+	 padding: 10px 20px;
+ }
+ .navbar-wagon-dropdown-menu li > a:hover {
+	 background: transparent !important;
+	 color: black !important;
+ }
+ .navbar-wagon-dropdown-menu:before {
+	 content: ' ';
+	 height: 10px;
+	 width: 10px;
+	 position: absolute;
+	 right: 10px;
+	 top: -6px;
+	 background-color: white;
+	 transform: rotate(45deg);
+	 border-left: 1px solid #E6E6E6;
+	 border-top: 1px solid #E6E6E6;
+ }
+
+ #logo {
+	 height: 65px;
+	 width: 65px;
+ }
+
+ .footer {
+	 background: #F4F4F4;
+	 display: flex;
+	 align-items: center;
+	 justify-content: space-between;
+	 height: 100px;
+	 padding: 0px 50px;
+	 color: rgba(0,0,0,0.3);
+ }
+ .footer-links {
+	 display: flex;
+	 align-items: center;
+ }
+ .footer-links a {
+	 color: black;
+	 opacity: 0.15;
+	 text-decoration: none;
+	 font-size: 24px;
+	 padding: 0px 10px;
+ }
+ .footer-links a:hover {
+	 opacity: 1;
+ }
+ .footer .fa-heart {
+	 color: black;
+ }
+

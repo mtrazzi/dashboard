@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Target Material Design Bootstrap Admin Template</title>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="assets/materialize/css/materialize.min.css" media="screen,projection" />
+    <!-- Bootstrap Styles-->
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <!-- FontAwesome Styles-->
+    <link href="assets/css/font-awesome.css" rel="stylesheet" />
+    <!-- Morris Chart Styles-->
+    <link href="assets/js/morris/morris-0.4.3.min.css" rel="stylesheet" />
+    <!-- Custom Styles-->
+    <link href="assets/css/custom-styles.css" rel="stylesheet" />
+    <link href="assets/css/custom-styles0.css" rel="stylesheet" />
+
+    <!-- Google Fonts-->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+    <link rel="stylesheet" href="assets/js/Lightweight-Chart/cssCharts.css">
+    <link href="assets/css/style.css" rel="stylesheet">
+
+
+</head>
+
+<body style="background-color: #b4debf">
+  <div class="navbar-wagon">
+<!-- Logo -->
+<a href="#" class="navbar-wagon-brand">
+<img src="images/handout 4.svg" alt="logo" id="logo">
+</a>
+
+<!-- Right Navigation -->
+<div class="navbar-wagon-right hidden-xs hidden-sm">
+
+<a href="" class="navbar-wagon-item navbar-wagon-link">VALIDER LES DONS</a>
+
+<!-- Profile picture with dropdown list -->
+<div class="navbar-wagon-item">
+  <div class="dropdown">
+    <a href="file:///Users/BC/Desktop/Hackaton%20BC/COLLECT%202/index.html#">
+    <img src="https://kitt.lewagon.com/placeholder/users/alex-felix" class="avatar dropdown-toggle" id="navbar-wagon-menu" data-toggle="dropdown">
+    </a>
+    <p>#Nicolas</p>
+  </div>
+</div>
+</div>
+
+<!-- Dropdown appearing on mobile only -->
+<div class="navbar-wagon-item hidden-md hidden-lg">
+<div class="dropdown">
+  <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
+  <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
+    <li><a href="#">Host</a></li>
+    <li><a href="#">Trips</a></li>
+    <li><a href="#">Messagese</a></li>
+  </ul>
+</div>
+</div>
+</div>
+      <div style="margin: 80px 80px">
+      <strong><h1 style="color: white" align="center">Year to date</h1></strong>
+			<div style="margin: 20px 0px" class="dashboard-cards" >
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+
+						<div class="card horizontal cardIcon waves-effect waves-dark">
+						<div class="card-image red">
+						<i class="material-icons dp48">import_export</i>
+						</div>
+						<div class="card-stacked red">
+						<div class="card-content">
+						<h3>€ 8 474</h3>
+						</div>
+						<div class="card-action">
+						<strong>TOTAL DES DONS</strong>
+						</div>
+						</div>
+						</div>
+
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+
+						<div class="card horizontal cardIcon waves-effect waves-dark">
+						<div class="card-image orange">
+						<i class="material-icons dp48">shopping_cart</i>
+						</div>
+						<div class="card-stacked orange">
+						<div class="card-content">
+						<h3>€ 900 000</h3>
+						</div>
+						<div class="card-action">
+						<strong>CHIFFRE D'AFFAIRE(ht)</strong>
+						</div>
+						</div>
+						</div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+
+							<div class="card horizontal cardIcon waves-effect waves-dark">
+						<div class="card-image blue">
+						<i class="material-icons dp48">equalizer</i>
+						</div>
+						<div class="card-stacked blue">
+						<div class="card-content">
+						<h3>€ 5 354</h3>
+						</div>
+						<div class="card-action">
+						<strong>REDUCTION FISCALE</strong>
+						</div>
+						</div>
+						</div>
+
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+
+					<div class="card horizontal cardIcon waves-effect waves-dark">
+						<div class="card-image green">
+						<i class="material-icons dp48">supervisor_account</i>
+						</div>
+						<div class="card-stacked green">
+						<div class="card-content">
+						<h3>2</h3>
+						</div>
+						<div class="card-action">
+						<strong>NOMBRE D'ASSOCIATIONS</strong>
+						</div>
+						</div>
+						</div>
+
+                    </div>
+                </div>
+			   </div>
+         <div class="cirStats">
+               <div class="row">
+               <div class="col-xs-12 col-sm-6 col-md-6">
+                 <div class="card-panel text-center">
+                   <h4>TAUX OPTIMISATION DEMARQUE</h4>
+                   <img src="images/pie4.png" height="30%">
+                   </div>
+                 </div>
+                 <div class="col-xs-12 col-sm-6 col-md-6">
+                   <div class="card-panel text-center">
+                     <h4>REPARTITION PAR ASSOCIATION</h4>
+                     <img src="images/pie2.png" height="30%">
+                     </div>
+                   </div>
+               </div>
+
+
+               </div>
+
+
+
+
+         <div class="panel panel-default">
+             <div class="panel-heading">
+                 <h3>Liste de dons</h3>
+             </div>
+
+             <div class="panel-body">
+                 <div class="table-responsive">
+                     <table class="table table-striped table-bordered table-hover">
+                         <thead>
+                             <tr>
+                                 <th>Date de donation</th>
+                                 <th>Bénéficiaire</th>
+                                 <th>Montant (en €)</th>
+                                 <th>Addresse du smart contract</th>
+                             </tr>
+                         </thead>
+                         <tbody>
+                             <tr>
+                                 <td>17/02/18</td>
+                                 <td>Unicef</td>
+                                 <td>3,158</td>
+                                 <td>0xcd234a471b72ba2f1ccf0a70fcaba648a5eecd8d</td>
+                             </tr>
+                             <tr>
+                                 <td>16/02/18</td>
+                                 <td>Resto du coeur</td>
+                                 <td>5,316</td>
+                                 <td>0x343c43a37d37dff08ae8c4a11544c718abb4fcf8</td>
+                             </tr>
+
+                         </tbody>
+                     </table>
+                 </div>
+             </div>
+        </div>
+      </div>
+        <div class="footer">
+      <div class="footer-links">
+        <a href="https://www.groupe-casino.fr/fr/"><i class="fa fa-home"></i></a>
+        <a href="#"><i class="fa fa-file-o"></i></a>
+      </div>
+      <div class="footer-copyright">
+        Blockchain and Shop Hackathon - 18/02/2018 - @42
+      </div>
+    </div>
+        <!--/.row-->
+				<!-- /. ROW  -->
+    <!-- /. WRAPPER  -->
+    <!-- JS Scripts-->
+    <!-- jQuery Js -->
+    <script src="assets/js/jquery-1.10.2.js"></script>
+
+	<!-- Bootstrap Js -->
+    <script src="assets/js/bootstrap.min.js"></script>
+
+	<script src="assets/materialize/js/materialize.min.js"></script>
+
+    <!-- Metis Menu Js -->
+    <script src="assets/js/jquery.metisMenu.js"></script>
+    <!-- Morris Chart Js -->
+    <script src="assets/js/morris/raphael-2.1.0.min.js"></script>
+    <script src="assets/js/morris/morris.js"></script>
+
+
+	<script src="assets/js/easypiechart.js"></script>
+	<script src="assets/js/easypiechart-data.js"></script>
+
+	 <script src="assets/js/Lightweight-Chart/jquery.chart.js"></script>
+
+    <!-- Custom Js -->
+    <script src="assets/js/custom-scripts.js"></script>
+
+
+</body>
+
+</html>
